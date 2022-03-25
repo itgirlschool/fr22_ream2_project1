@@ -8,11 +8,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
-
         <header class="header">
             <div class="header__container">
                 <a href="#" class="logo">
@@ -20,80 +22,90 @@
                     <span class="header__logo_text">TULPAR</span>
                 </a>
                 <nav>
-                    <ul class="header__nav">
-                        <li class="nav__item"><a class="navlink" href="#">Главная</a></li>
-                        <li class="nav__item"><a class="navlink" href="#">Наши услуги</a></li>
-                        <li class="nav__item"> <a class="navlink" href="#">Наши услуги</a></li>
-                        <li class="nav__item"> <a class="navlink" href="#">Отчеты</a></li>
-                        <li class="nav__item"><a class="navlink" href="#">О нас</a></li>
-                        <li class="nav__item"> <a class="navlink" href="#">Услуги</a></li>
-                        <li class="nav__item"> <select name="language" id="language">
-                                <option value="ru">РУC</option>
-                                <option value="en">ENG</option>
-                            </select></li>
-                    </ul>
+                    <div class="header__nav" id="navbar">
+                        <a class="navlink" href="#">Главная</a>
+                        <a class="navlink" href="#">Наши услуги</a>
+                        <a class="navlink" href="#">Наши услуги</a>
+                        <a class="navlink" href="#">Отчеты</a>
+                        <a class="navlink" href="#">О нас</a>
+                        <a class="navlink" href="#">Услуги</a>
+                        <!-- <select name="language" id="language">
+                            <option value="ru">РУC</option>
+                            <option value="en">ENG</option>
+                        </select> -->
+                    </div>
+
                 </nav>
             </div>
         </header>
         <main class="main">
             <div class="main__conteiner">
                 <div class="main__left">
+                    <!-- <div class="mainleft__img"> -->
                     <img src="assets/images/stethoscope.png" alt="стетоскоп" class="mainleft__img">
-                    <h1 class="mainleft__caption">Кардио-реаблитационный
-                        центр</h1>
-                    <p class="mainleft__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the</p>
-                    <ul class="mainleft__item">
-                        <li>Название услуги</li>
-                        <li>Название услуги</li>
-                        <li>Название услуги</li>
-                        <li>Название услуги</li>
-                    </ul>
+                    <!-- </div> -->
+                    <div class="mainleft__content">
+                        <h1 class="mainleft__caption">Кардио-реаблитационный
+                            центр</h1>
+                        <p class="mainleft__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                        <ul class="mainleft__item">
+                            <li>Название услуги</li>
+                            <li>Название услуги</li>
+                            <li>Название услуги</li>
+                            <li>Название услуги</li>
+                        </ul>
+                        <button class="button button-left">Все услуги</button>
+                    </div>
                 </div>
                 <div class="main__right">
-
-                    <h1 class="mainright__caption">Травма-реабилитационный
-                        центр</h1>
-                    <p class="mainright__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the</p>
-                    <ul class="mainright__item">
-                        <li>Название услуги</li>
-                        <li>Название услуги</li>
-                        <li>Название услуги</li>
-                        <li>Название услуги</li>
-                    </ul>
+                    <div class="mainright__content">
+                        <h1 class="mainright__caption">Травма-реабилитационный
+                            центр</h1>
+                        <p class="mainright__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                        <ul class="mainright__item">
+                            <li>Название услуги</li>
+                            <li>Название услуги</li>
+                            <li>Название услуги</li>
+                            <li>Название услуги</li>
+                        </ul>
+                        <button class="button button-right">Все услуги</button>
+                    </div>
+                    <!-- <div class="mainright__img"> -->
                     <img src="assets/images/bed.png" alt="кровать" class="mainright__img">
+                    <!-- </div> -->
                 </div>
         </main>
-
-        <!-- далее ниже я думамаю  стоит продолжать -->
-        <!-- чтобы было понятно, какой блок у вас идет, пишите также комментарий, что блок такой то начинается и где он закнчивается, чтобы потом было легче их менять местами -->
-
-        <!-- Например далее тут начинается блок НАШИ УСЛУГИ -->
-
-
-
-
-        <!-- вот тут блок НАШИ УСЛУГИ закончился  -->
-
-
-        <!-- Например далее тут начинается блок НАШИ СПЕЦИАЛИСТЫ -->
-
-
-
-
-        <!-- вот тут блок НАШИ СПЕЦИАЛИСТЫ закончился  -->
-
-
-
-
-
-
-
-
     </div>
+    <!-- далее ниже я думамаю  стоит продолжать -->
+    <!-- чтобы было понятно, какой блок у вас идет, пишите также комментарий, что блок такой то начинается и где он закнчивается, чтобы потом было легче их менять местами -->
+
+    <!-- Например далее тут начинается блок НАШИ УСЛУГИ -->
+
+
+
+
+    <!-- вот тут блок НАШИ УСЛУГИ закончился  -->
+
+
+    <!-- Например далее тут начинается блок НАШИ СПЕЦИАЛИСТЫ -->
+
+
+
+
+    <!-- вот тут блок НАШИ СПЕЦИАЛИСТЫ закончился  -->
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
