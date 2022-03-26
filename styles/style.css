@@ -227,6 +227,7 @@ ul.mainright__item {
         justify-content: center;
         margin-left: 0px;
     }
+
     .header__nav {
         align-items: center;
     }
@@ -244,6 +245,153 @@ ul.mainright__item {
         flex-direction: column;
     }
 }
+
+
+
+
+/*блок наши услуги начало*/
+
+.services {
+    background-color: #32495E;
+    padding: 70px 115px 115px 140px;
+}
+
+.services h2 {
+    color: #F9F9F9;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    padding-bottom: 40px;
+}
+
+.our__services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our__services img {
+    width: 280px;
+    height: 240px;
+}
+
+.our__services p {
+    color: #F9F9F9;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 62px;
+    max-width: 250px;
+}
+
+.button__services a {
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.button__services {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: 1px solid #F9F9F9;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: #32495E;
+    padding: 16px 44px 16px 44px;
+    position: relative;
+    left: 50%;
+}
+
+.hidden {
+    position: relative;
+    bottom: 40%;
+    background-color: #E95258;
+    max-width: 280px;
+}
+
+.hidden h3 {
+    padding: 20px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+    display: none;
+}
+
+
+.hidden p {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    display: none;
+}
+
+.text:hover p {
+    display: block;
+    transition-delay: 0.15s;
+}
+
+.text:hover h3 {
+    display: block;
+    transition-delay: 0.25s;
+}
+
+/*блок наши услуги конец*/
+
+
+/*блок наши специалисты начало*/
+
+.our__specialists {
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #F9F9F9;
+}
+
+
+.our__specialists h2 {
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    color: #F9F9F9;
+    position: relative;
+    bottom: 80px;
+}
+
+.specialists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.specialists img {
+    padding-bottom: 30px;
+}
+
+.specialists h3 {
+    color: #32495E;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.specialists p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #32495E;
+    padding-bottom: 40px;
+    max-width: 260px;
+}
+
+/*блок наши специалисты конец*/
 
 
 /* ============================Footer========================================= */
@@ -334,6 +482,7 @@ ul.mainright__item {
         max-width: 768px;
         padding: 40px 15px;
     }
+
     .footer__column {
         flex: 0 1 33.333%;
         margin-right: 1px;
@@ -348,24 +497,29 @@ ul.mainright__item {
         font-size: 10px;
         line-height: 12px;
     }
+
     .footer__main {
         flex-wrap: wrap;
     }
+
     .footer__column:first-child {
         flex: 1 1 100%;
         margin-bottom: 20px;
     }
+
     .footer__column {
         flex: 0 1 50%;
         margin-right: 0px;
         padding: 0 10px;
         align-items: center;
     }
+
     .footer__label {
         padding: 10px 0;
         font-size: 12px;
         line-height: 15px;
     }
+
     .footer__copyright {
         margin-top: 25px;
         text-align: center;
