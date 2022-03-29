@@ -574,6 +574,131 @@ ul.sectionright__item {
 /*блок наши специалисты конец*/
 
 
+/*начало блока фото и видео*/
+
+.photovideo {
+    background: #32495E;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.photovideo::after {
+    background-image: url(../assets/images/photovideo/line.png);
+    position: absolute;
+    right: 200px;
+}
+
+
+.photovideo__container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex: 1 0 auto;
+
+}
+
+.photovideo__container h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    color: #F9F9F9;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+.photovideo__nav {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.photovideo__nav_item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #F9F9F9;
+    padding-right: 40px;
+
+}
+
+.photovideo__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.photovideo__list a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 22px;
+    width: 291px;
+    height: 180px;
+}
+
+.photovideo__list_hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.photovideo__list_item {
+    max-width: 100%;
+}
+
+.photovideo__list_item:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.3ms;
+}
+
+
+.photovideo__list_text {
+    position: absolute;
+    left: 20px;
+    right: 19px;
+    bottom: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+    opacity: 0.8;
+}
+
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.photovideo__button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    height: 50px;
+    width: 160px;
+    border-radius: 25px;
+    border: 1px solid #F9F9F9;
+    box-sizing: border-box;
+    background-color: #32495E;
+    color: #F9F9F9;
+    cursor: pointer;
+}
+
+/*конец блока фото и видео*/
+
 /* ============================FAQ========================================= */
 
 .faq {
