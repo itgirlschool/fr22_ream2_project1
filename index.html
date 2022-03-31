@@ -17,26 +17,63 @@
     <div class="wrapper">
         <header class="header">
             <div class="header__container">
+                <div class="navbar__wrap">
 
-                <a href="#">
-                    <img class="header__logo" src="assets/images/header/logo.svg" alt="logo" />
-                </a>
-
-                <!-- <a href="#" class="logo">
-                    <span class="header__logo_img"></span>
-                    <span class="header__logo_text">TULPAR</span>
-                </a> -->
-                <nav>
-                    <div class="header__nav" id="navbar">
-                        <a class="navlink" href="#">Главная</a>
-                        <a class="navlink" href="#">Наши услуги</a>
-                        <a class="navlink" href="#">Наши услуги</a>
-                        <a class="navlink" href="#">Отчеты</a>
-                        <a class="navlink" href="about.html">О нас</a>
-                        <a class="navlink" href="#">Услуги</a>
+                    <a href="index.html">
+                        <div class="header__logo" id="logo"></div>
+                    </a>
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
-                </nav>
+
+                    <nav class="header__menu menu" id="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Наши услуги</a>
+                                <ul class="sub-menu__list">
+                                    <li>
+                                        <a href="#" class="sub-menu__link">Травма-реабилитационный
+                                            центр</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="sub-menu__link">Кардио-реаблитационный
+                                            центр</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отчеты</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="about.html" class="menu__link">О нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отчеты</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">РУС</a>
+                                <ul class="sub-menu__list">
+                                    <li>
+                                        <a href="#" class="sub-menu__link">РУС</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="sub-menu__link">KAZ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- <div class="popup" id="popup"></div> -->
             </div>
+            <div class="popup" id="popup"></div>
         </header>
 
         <main class="main">
@@ -144,6 +181,7 @@
                         </div>
                     </div>
                     <button class="button__services"><a href="#"> Все услуги</a></button>
+                </div>
             </section>
 
             <!-- конец блока НАШИ УСЛУГИ -->
@@ -574,6 +612,7 @@
             </div>
         </footer>
     </div>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>
